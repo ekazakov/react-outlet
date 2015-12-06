@@ -7,7 +7,7 @@ const outletable = Wrapped => props => {
         return result;
     }, {});
 
-    return <Wrapped outlets={outlets}/>
+    return <Wrapped outlets={outlets} {...props}/>
 };
 
 export default outletable;
